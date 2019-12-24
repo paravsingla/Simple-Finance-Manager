@@ -5,4 +5,4 @@ from .. import db
 
 @main.route('/')
 def index():
-    return 'Index'
+    return render_template('index.html')
